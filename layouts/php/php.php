@@ -33,7 +33,7 @@
         }
     });
 
-    editor.setSize(null, 500);
+    editor.setSize(null, 450);
 
     var result = CodeMirror.fromTextArea(document.getElementById("result"), {
         styleActiveLine: true,
@@ -41,7 +41,7 @@
         scrollbarStyle: "simple"
     });
 
-    result.setSize(null, 500);
+    result.setSize(null, 450);
 
     var input = document.getElementById("select");
 
