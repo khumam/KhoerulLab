@@ -113,7 +113,7 @@
         }
     </style>
 
-    <title>Khoerul's Lab</title>
+    <title>Barra Lab</title>
 </head>
 
 <body class="d-flex align-items-center" style="min-height: 100vh;">
