@@ -16,3 +16,16 @@
     }
     window.addEventListener('load', addDarkmodeWidget);
 </script>
+<script>
+    if ('serviceWorker' in navigator && 'PushManager' in window) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register("../sw.js").then(function(
+                registration) {
+                // Registration was successful
+            }, function(err) {
+                // registration failed :(
+                console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+    }
+</script>
