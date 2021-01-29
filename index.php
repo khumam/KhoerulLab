@@ -107,6 +107,7 @@ $lists = [
                 <p></p>
                 <a class="btn btn-warning px-4 py-2" href="php/#ambiance">PHP</a>
                 <a class="btn btn-warning px-4 py-2" href="python/#ambiance">Python 3</a>
+                <a class="btn btn-warning px-4 py-2" href="js/#ambiance">Javascript</a>
             </div>
         </div>
     </div>
